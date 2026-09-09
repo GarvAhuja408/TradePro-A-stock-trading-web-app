@@ -33,7 +33,7 @@ const Menu = () => {
 
         if (response.ok) {
             alert(data.message);
-            window.location.href = "https://tradepro-a-stock-trading-web-app.vercel.app/login";
+            window.location.href = "https://zerodha-backend-c87q.onrender.com/login";
         }
 
     } catch (error) {
