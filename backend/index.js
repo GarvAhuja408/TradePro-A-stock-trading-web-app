@@ -408,8 +408,6 @@ app.post("/logout", (req, res) => {
         message: "Logout successful"
     });
 
-    res.redirect("https://tradepro-a-stock-trading-web-app.vercel.app/login");
-
 });
 
 app.get("/", (req, res) => {
